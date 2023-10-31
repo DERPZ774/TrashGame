@@ -3,7 +3,7 @@ apply plugin: 'idea'
 
 idea {
     module {
-        downloadJavaDoc = true
+        downloadJavadoc = true
         downloadSources = true
     }
 }
@@ -11,8 +11,8 @@ idea {
 group 'your.group'
 version project.version
 
-sourceCompatability = JavaVersion.VERSION_17
-targetCompatability = JavaVersion.VERSION_17
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
 repositories {
     mavenCentral()
@@ -20,5 +20,9 @@ repositories {
 }
 
 dependencies {
-    im
+    implementation "com.fiskmods:gameboii:" + project.gameboiiVersion
+    implementation "com.fiskmods:gameboii-wrapper:" + project.gameboiiWrapperVersion
+    implementation group: 'javazoom', name: 'jlayer', version: '1.0.1'
+    implementation group: 'com.googlecode.soundlibs', name: 'mp3spi', version: '1.9.5-1'
+    implementation group: 'com.googlecode.soundlibs', name: 'tritonus-share', version: '0.3.7.4'
 }
