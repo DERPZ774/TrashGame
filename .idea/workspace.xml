@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="204c5c3f-39be-498e-ab1a-a2807e5feb8a" name="Changes" comment="Setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/derpz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/derpz/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/derpz/TestGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/derpz/TestGame.java" afterDir="false" />
-    </list>
+    <list default="true" id="204c5c3f-39be-498e-ab1a-a2807e5feb8a" name="Changes" comment="Test game setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +130,7 @@
       <updated>1698685989107</updated>
       <workItem from="1698685990130" duration="1346000" />
       <workItem from="1698770976005" duration="2657000" />
-      <workItem from="1698945047776" duration="423000" />
+      <workItem from="1698945047776" duration="1122000" />
     </task>
     <task id="LOCAL-00001" summary="Setup">
       <option name="closed" value="true" />
@@ -144,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698772813516</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test game setup">
+      <option name="closed" value="true" />
+      <created>1698945888902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698945888902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +157,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup" />
+    <MESSAGE value="Test game setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test game setup" />
   </component>
 </project>
