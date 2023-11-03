@@ -1,9 +1,11 @@
 package com.derpz;
 
 import com.derpz.graphics.TrashGameGraphics;
+import com.derpz.graphics.TrashGameLoading;
 import com.fiskmods.gameboii.Abstract2DGame;
 import com.fiskmods.gameboii.Cartridge;
-import com.fiskmods.gameboii.games.batfish.BatfishGraphics;
+import com.fiskmods.gameboii.games.batfish.screen.ScreenLoading;
+import com.fiskmods.gameboii.games.batfish.screen.ScreenMainMenu;
 import com.fiskmods.gameboii.graphics.screen.Screen;
 import com.fiskmods.gameboii.resource.IResourceListener;
 import com.fiskmods.gameboii.wrapper.Main;
@@ -13,6 +15,7 @@ import java.util.function.Consumer;
 
 public class TrashGame extends Abstract2DGame {
     public static TrashGame INSTANCE = new TrashGame();
+    private boolean launched;
 
     public TrashGame() {
         super(1024, 1);
@@ -30,7 +33,12 @@ public class TrashGame extends Abstract2DGame {
 
     @Override
     public Screen displayMenuScreen() {
-        return null;
+        if (!launched)
+        {
+            launched = true;
+            return new TrashGameLoading();
+        }
+        return new ScreenMainMenu();
     }
 
     @Override
